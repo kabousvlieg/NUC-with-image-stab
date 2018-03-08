@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Pipeline"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pipeline">
+				<Option output="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Pipeline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXGTK__"/>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add directory="/usr/include/gtk-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/libpng12"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/local/lib/wx/include/gtk2-unicode-3.0"/>
+					<Add directory="/usr/local/include/wx-3.0"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pipeline"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pipeline/fast">
+				<Option output="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Pipeline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXGTK__"/>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add directory="/usr/include/gtk-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/libpng12"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/local/lib/wx/include/gtk2-unicode-3.0"/>
+					<Add directory="/usr/local/include/wx-3.0"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pipeline/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/gui/gui_thread.cpp">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/gui/gui_thread.h">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/gui/widgets.cpp">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/gui/widgets.h">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/imageProcessing/cpuDsp.cpp">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/imageProcessing/cpuDsp.h">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/imageProcessing/cudaDsp.cu">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/imageProcessing/cudaDsp.h">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/imageProcessing/imageStabKalman.cpp">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/imageProcessing/imageStabKalman.h">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/imageProcessing/stabilisation.cpp">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/imageProcessing/stabilisation.h">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/main.cpp">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/ti/camera.cpp">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/ti/camera.h">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/ti/ti_thread.cpp">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/ti/ti_thread.h">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/util/debug.h">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/util/exceptions.h">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/util/threads.cpp">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/util/threads.h">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/util/timeClock.cpp">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/src/util/timeClock.h">
+			<Option target="Pipeline"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/../../../../../usr/local/share/OpenCV/OpenCVModules-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

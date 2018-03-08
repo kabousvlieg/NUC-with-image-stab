@@ -1,0 +1,3 @@
+/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kobus/Kobus/clion_workspace/Pipeline-NUC-imagestab-experiment/cmake-build-debug/CMakeFiles/Pipeline.dir
